@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Theemwiz Frontend Test</title>
+    <!-- link for Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!-- link for google font-->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- link for swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="cont1 px-3 px-sm-0 pt-2">
+        <!-- Navigation bar starts -->
+        <nav class="navbar navbar-expand-lg pb-5 "> <!-- This is nav bar -->
+            <div class="container d-flex  ">
+                <a class="navbar-brand" href="#"> <!-- logo of navbar-->
+                    <img src="./photo/logo.png" alt="logo">
+                </a>
+                <!-- toggle button-->
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation ">
+                    <span class="navbar-toggler-icon ">
+                    </span>
+                </button>
+
+                <div class="collapse navbar-collapse  " id="navbarSupportedContent"> <!-- navbar menu-->
+                    <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0 d-flex justify-content-center">
+                        <li class="nav-item ">
+                            <a class=" navtext navtext1 " href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" navtext navtext1" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" navtext navtext1" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" navtext" href="#">Blog</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <form class="d-flex" role="search"> <!-- navbar button-->
+                            <button class="btn btn-outline-secondary navbtn " type="submit">CONTACT</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Navigation bar ends -->
+        </nav>
+        <!-- This section contains the main heading -->
+        <div class="container ">
+            <div class="row mt-md-5 d-flex justify-content-between flex-column-reverse flex-md-row gap-5 ">
+                <div class="col-12 col-xl-6 mt-sm-3 ">
+                    <h5 class="head2">MODERN STUDIO</h5>
+                    <img src="./photo/Star.png" class="star d-none d-xxl-block" alt="star">
+                    <h1 class="mt-3 head1h1 pt-2 ">We’re Help <br>To Build Your Dream Project</h1>
+                    <p class="para mt-4 col-sm-9 ">Agency provides a full service range including technical skills,
+                        design, business understanding.
+                    </p>
+                    <div class="row mt-5 col-12">
+                        <div class=" col-5 ">
+                            <button class="btn nbtn " type="submit">HOW WE WORK</button>
+                        </div>
+                        <div class="col-4  d-flex justify-content-center">
+                            <a class=" pt-3 navtext" href="#">Contact Us</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-xl-5 pt-3 d-flex justify-content-center">
+                    <img class="img-fluid" src="./photo/pic.png" alt="nav photo">
+                </div>
+            </div>
+            <div class="d-flex flex-wrap pb-5 mt-5 mt-md-3 ">
+                <img class="me-4" src="./photo/Bitmap(2).png" alt="icon">
+                <div>
+                    <h6 class="cap ">"Put themselves in the merchant's shoes"</h6>
+                    <h6 class="cap1">Meta Inc.</h6>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <!-- This is first section   -->
+        <section class="cont2 pb-5 pt-5 px-3 px-sm-0">
+            <div class="py-5 container"><!--this is section's first container-->
+                <div class=" pb-5 mb-5 logo1 ">
+                    <div class="row text-center justify-content-sm-between justify-content-center g-4 logo-grid">
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <img src="./photo/Bitmap(16).png" alt="DigitalSide" class="img-fluid">
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <img src="./photo/Bitmap(15).png" alt="Vortex" class="img-fluid">
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <img src="./photo/Bitmap(14).png" alt="Travel Explorer" class="img-fluid">
+                        </div>
+                        <div class="col-6  col-md-6 col-lg-2">
+                            <img src="./photo/Bitmap(13).png" alt="Fuzion" class="img-fluid">
+                        </div>
+                        <div class="col-6 col-sm-12 col-md-6 col-lg-2 justify-content-center">
+                            <img src="./photo/Bitmap(12).png" alt="MediaFury" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container  mt-5 mt-sm-0 ">
+                <div class="row d-flex justify-content-lg-between justify-content-sm-center">
+                    <div class="col-xl-6 col-lg-12 d-flex justify-content-md-center justify-content-xl-between ">
+                        <img class="img-fluid" src="./photo/pic1.png" alt="design">
+                    </div>
+                    <div class="col-xl-5 col-lg-12 mt-5 pt-5 pt-xl-0">
+                        <h5 class="cont2h5">ABOUT</h5>
+                        <h1 class="mt-3 col-sm-12 col-11 heading1 pt-2">An Experience Design Agency</h1>
+                        <h6 class="pt-3 heading6">Provides a full service range</h6>
+                        <p class="mt-4 col-sm-11 cont2p  ">Ability to put themselves in the merchant's shoes. It is
+                            meant
+                            to partner on the long run, and work as an extension of the merchant's team.
+                        </p>
+                        <button class="btn mt-4 shadow-sm btn-light cont2button " type="submit">ABOUT
+                            US</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5 pt-5 "><!-- this is section's second container-->
+                <div class="row  pt-sm-5 px-3 px-sm-3 ">
+                    <div class="col-12 col-md-4 cont2a py-5 ps-5">
+                        <h1 class="cont2ah1">42%</h1>
+                        <h6 class="cont2ah6">Years of experience</h6>
+                    </div>
+                    <div class="col-12 col-md-4 cont2a py-5 ps-5">
+                        <h1 class="cont2ah1">73+</h1>
+                        <h6 class="cont2ah6">Agency members</h6>
+                    </div>
+                    <div class="col-12 col-md-4 cont2a py-5 ps-5">
+                        <h1 class="cont2ah1">5.000</h1>
+                        <h6 class="cont2ah6">Projects complete</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="container cont2b  mt-5 pt-sm-5 mb-5 pb-5"><!-- this is section's second container-->
+                <div class="row d-flex justify-content-between pt-5 ">
+                    <div class=" col-11 col-sm-12 col-md-12 col-lg-5  ms-4 ms-sm-0">
+                        <h5 class="heading5 ">HOW WE WORK</h5>
+                        <h1 class="mt-4 heading">Making Your Projects Look Awesome</h1>
+                        <h6 class="pt-3 col-11 mt-3 heading3">Technical skills, design, business understanding, ability
+                            to put themselves in the merchant's shoes.</h6>
+                        <p class="mt-5 col-sm-12 mt-4 heading4">Read More</p>
+                    </div>
+                    <table class=" col-11 col-sm-11 col-md-12 col-lg-6 col  mt-5 ms-4 ms-sm-0 mb-5">
+                        <tbody class="col-12">
+                            <tr>
+                                <th class="num  col-2 py-3 ">1</th>
+                                <td class="word col-12">Full service range including</td>
+                            </tr>
+                            <tr>
+                                <th class="num py-3">2</th>
+                                <td class="word col-12">Technical skills, design, business</td>
+                            </tr>
+                            <tr>
+                                <th class="num py-3">3</th>
+                                <td class="word">Themselves in the merchant's</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="container  mt-5 pt-sm-5 mb-5"><!-- this is section's third container-->
+                <div class="row d-flex justify-content-between">
+                    <div class=" col-lg-6 video-section ">
+                        <a href="./photo/home_video.mp4" target="_blank" class="glightbox video-wrapper"
+                            data-type="video"> <!--option 1-->
+                            <img src="./photo/Bitmap(1).png" alt="Video Thumbnail" />
+                            <div class="video-play-btn">
+                                <div class="inner-circle">
+                                    <span class="play-icon"></span>
+                                </div>
+                            </div>
+                        </a>
+                        <!--option 2-->
+                        <!-- <video controls poster="./photo/Bitmap(1).png" class="img-fluid  ">
+                            <source src="./photo/home_video.mp4" target="_blank" class="object-fit-contain    ">
+                        </video> -->
+                        <!-- <div class="play-button bg-danger"></div> -->
+                        <!-- <div class="duration-label">1:45</div> -->
+                    </div>
+                    <div class=" col-lg-5 mt-xl-5  ">
+                        <h5 class="mt-3 heading5">VIDEO RELL</h5>
+                        <h1 class="mt-3 heading">Unlock The Greatest Value Possible</h1>
+                        <p class="mt-4  col-md-11 heading3">Design, business understanding, ability to put themselves in
+                            the
+                            merchant's shoes meant to partner.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- This is Second section page  -->
+        <section class="cont1 pt-5 pb-5">
+            <div class="text-center pt-5 ">
+                <h5 class="heading5">PORTFOLIO </h5>
+                <h2 class="heading7 pt-4">Latest Work</h2>
+                <!-- Desktop: horizontal filter -->
+                <div class="filter-buttons justify-content-center d-none d-md-flex  pt-5 pb-5 gap-5">
+                    <button class="filter-btn active position-relative" data-filter="all">Show All<sup>14</sup>
+                    </button>
+                    <button class="filter-btn" data-filter="design">Design <sup>6</sup></button>
+                    <button class="filter-btn" data-filter="branding">Branding <sup>4</sup></button>
+                    <button class="filter-btn" data-filter="illustration">Illustration <sup>3</sup></button>
+                    <button class="filter-btn" data-filter="motion">Motion <sup>1</sup></button>
+                </div>
+                <!-- Mobile: dropdown filter -->
+                <div class="d-block d-md-none px-3 pt-4 pb-5">
+                    <select class="form-select text-start filter-select">
+                        <option selected data-filter="all">Show All</option>
+                        <option data-filter="design">Design (6)</option>
+                        <option data-filter="branding">Branding (4)</option>
+                        <option data-filter="illustration">Illustration (3)</option>
+                        <option data-filter="motion">Motion (1)</option>
+                    </select>
+                </div>
+
+            </div>
+            <!-- this is photo of latest work -->
+            <div class="container ps-sm-5 pb-5 ">
+                <div class="row g-4 filter-card ">
+                    <div class="col-md-5 col-12 card_wrapper" data-filter="design">
+                        <img src="./photo/Bitmap(6).png" alt="SOFA">
+                        <button class="btn btn-light custom px-3">Design</button>
+                        <h3 class="card-title title-custom">SOFA</h3>
+                    </div>
+                    <div class="col-md-7 col-12 card_wrapper bg-md-danger " data-filter="branding">
+                        <img src="./photo/Bitmap(5).png" alt="KeyBoard">
+                        <button class="btn btn-light custom px-3">Branding</button>
+                        <h3 class="card-title title-custom">KeyBoard</h3>
+                    </div>
+                    <div class="col-md-7 card_wrapper " data-filter="illustration">
+                        <img src="./photo/Bitmap(3).png" alt="Work Media">
+                        <button class="btn btn-light custom px-3">Illustration</button>
+                        <h3 class="card-title title-custom">Work Media</h3>
+                    </div>
+                    <div class="col-md-5 card_wrapper  " data-filter="motion">
+                        <img src="./photo/Bitmap(4).png" alt="DDDone">
+                        <button class="btn btn-light custom px-3">Motion</button>
+                        <h3 class="card-title title-custom">DDDone</h3>
+                    </div>
+                    <div class="d-flex justify-content-center ">
+                        <button class="btn btn-outline-secondary mt-5 px-4 py-2 text-light fw-bold explore">EXPLORE MORE
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- this is gift card-->
+            <div class="container pt-5 mt-md-5 py-5 ">
+                <div class="hero-wrapper px-sm-5 ">
+                    <div class="row align-items-center  ">
+                        <!-- Left Content -->
+                        <div class=" col-md-12 col-xl-5 gift-container  ">
+                            <img src="./photo/icon.png" alt="Gift Icon" class=" mb-4">
+                            <h6 class="  mb-3 ms-sm-4 pt-3 pt-sm-0 gift-containerh6">GET STARTED</h6>
+                            <h3 class="fw-bold ms-sm-4 pt-3 pt-sm-0 pb-3 pb-sm-0 gift-containerh3">We Help Companies
+                                Move Faster</h3>
+                            <button class="contact_btn mt-3 ms-sm-4 ">CONTACT US</button>
+                        </div>
+
+                        <!-- Center Image (card graphic) -->
+                        <div class="col-md-9 col-xl-4 text-center pt-5 mt-sm-0 ">
+                            <img src="./photo/block.png" alt="Card Graphic" class="hero-card">
+                        </div>
+
+                        <!-- Right (Woman Image) -->
+                        <div class="col-md-9 col-xl-3 woman-container ">
+                            <!-- <img src="./photo/Path.png" alt="Cloud Shape" class="cloud-image"> -->
+                            <img src="./photo/Bitmap(7).png" alt="Woman " class="woman-img mt-5 pt-5 pt-sm-0 mt-sm-0">
+                            <!-- <img src="./photo/Path.png" class="cloud-image"> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--  this is team card-->
+            <div class="container mt-5">
+                <!-- Header -->
+                <div class="col-md-10 mt-5 mx-4 mx-sm-0 ">
+                    <h5 class="heading5">OUR TEAM</h5>
+                    <h2 class="col-11 mt-3 heading7">Team of Designers <br>and Developers</h2>
+                </div>
+
+                <!-- Swiper Carousel -->
+                <div class="swiper mt-5 ">
+                    <!-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div> -->
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide card text-center p-3">
+                            <img src="./photo/Bitmap(8).png" class="img-fluid" alt="Azah Anyeni">
+                            <h5 class="mt-3">Azah Anyeni</h5>
+                            <p>Designer</p>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide card text-center p-3">
+                            <img src="./photo/Bitmap(9).png" class="img-fluid" alt="Roelof Bekkenenks">
+                            <h5 class="mt-3">Roelof Bekkenenks</h5>
+                            <p>React Developer</p>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide card text-center p-3">
+                            <img src="./photo/Bitmap(10).png" class="img-fluid" alt="Leonardo Oliveira">
+                            <h5 class="mt-3">Leonardo Oliveira</h5>
+                            <p>Illustrator</p>
+                        </div>
+                        <!-- Slide 4 -->
+                        <div class="swiper-slide card text-center p-3">
+                            <img src="./photo/Bitmap(11).png" class="img-fluid" alt="Izabella Tabakova">
+                            <h5 class="mt-3">Izabella Tabakova</h5>
+                            <p>Product Designer</p>
+                        </div>
+                        <div class="swiper-slide card text-center p-3">
+                            <img src="./photo/Bitmap(10).png" class="img-fluid" alt="Izabella Tabakova">
+                            <h5 class="mt-3">Izabella Tabakova</h5>
+                            <p>Product Designer</p>
+                        </div>
+                    </div>
+                    <!-- Pagination Dots -->
+                    <div class="swiper-pagination mt-5 "></div>
+                </div>
+            </div>
+
+        </section>
+        <!-- This is Third section page  -->
+        <section class="cont3 pt-5 pb-5">
+            <div class="container pt-5 "><!-- this is pricing continer-->
+                <div class="col-8 col-lg-5 col-xl-4 mx-4 mx-sm-0 ">
+                    <h5 class="cont2h5">PRICING</h5>
+                    <h2 class="mt-3 heading1">Check Our Pricing Plans</h2>
+                </div>
+                <div
+                    class="pricing-section d-flex justify-content-center flex-column flex-lg-row px-4 px-sm-0 pt-5 mt-4">
+                    <!-- Card 1 -->
+                    <div class="card1 col-12 col-sm-11  col-lg-4 ">
+                        <h2 class="card1h2">CONSULTATION</h2>
+                        <div class="price pt-3">Free</div>
+                        <p class="col-lg-9 card1p pt-2">Your digital marketing efforts, instead of handling in-house.
+                        </p>
+                        <div class="feature available"><img src="./photo/plus.png" alt="plus"> Brand Design</div>
+                        <div class="feature unavailable  pt-4"><img src="./photo/minus.png" alt="plus"> Market Analysis
+                        </div>
+                        <div class="feature unavailable  pt-4"><img src="./photo/minus.png" alt="minus"> Production
+                        </div>
+                        <button class="bttn  bttn-outline mt-5">CONTACT US</button>
+                    </div>
+
+                    <!-- Card 2 (Featured) -->
+                    <div class="card1 featured col-12 col-sm-11  col-lg-4 ">
+                        <span class="badge mt-2">Popular</span>
+                        <h2 class="pt-5 card1h2">DESIGN</h2>
+                        <div class="price pt-3">$1500</div>
+                        <p class="card1p col-lg-11 pt-2">Provide your business with a variety of digital solutions to
+                            promote.</p>
+                        <div class="feature available"><img src="./photo/plus.png" alt="plus"> Brand Design</div>
+                        <div class="feature available pt-4"><img src="./photo/plus.png" alt="plus"> Market Analysis
+                        </div>
+                        <div class="feature unavailable  pt-4"><img src="./photo/minus.png" alt="minus"> Production
+                        </div>
+                        <button class="bttn bttn-filled mt-5">CONTACT US</button>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="card1 col-12 col-sm-11 col-lg-4">
+                        <h2 class="card1h2">DESIGN + CODE</h2>
+                        <div class="price pt-3">$2900</div>
+                        <p class=" card1p pt-2">Help you hit your marketing goals and grow your business.</p>
+                        <div class="feature available"><img src="./photo/plus.png" alt="plus"> Brand Design</div>
+                        <div class="feature available  pt-4"><img src="./photo/plus.png" alt="plus"> Market Analysis
+                        </div>
+                        <div class="feature available  pt-4"><img src="./photo/plus.png" alt="plus"> Production</div>
+                        <button class="bttn bttn-outline mt-5">CONTACT US</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5 pt-sm-5 mb-5 pb-5 ps-5 ps-lg-0"><!-- this is Question and Answer container-->
+                <div class="row d-flex justify-content-between ">
+                    <div class=" col-lg-6 col-xl-5 mt-5">
+                        <h5 class="heading5">FAQ</h5>
+                        <h1 class="mt-4 heading ">Frequently Asked Questions</h1>
+                        <h6 class="pt-3 col-11  mt-3 heading3">A digital agency is a business you hire to outsource your
+                            digital marketing efforts, instead of handling in-house.</h6>
+                        <p class="mt-4 col-sm-11 mt-4 heading4">Contact Us</p>
+                    </div>
+                    <!--accordion starts here-->
+                    <div class="accordion col-lg-6 col-xl-5 col-11 mt-5" id="customAccordion">
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header ">
+                                <button class="accordion-button accordion-button1 " type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true">
+                                    A digital agency &nbsp;is a business
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#customAccordion">
+                                <div class="accordion-body ">
+                                    Digital marketing efforts, instead of handling in-house. They can provide your
+                                    business with a variety of digital solutions to promote your product or service
+                                    online and help you hit your marketing goals and grow your business.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo">
+                                    Hire to outsource your digital
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#customAccordion">
+                                <div class="accordion-body ">
+                                    Outsourcing digital marketing gives you access to expertise and tools your team may
+                                    not have.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree">
+                                    Marketing efforts
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#customAccordion">
+                                <div class="accordion-body">
+                                    Includes content marketing, social media, PPC, SEO, and email campaigns.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                                    Can provide your business
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#customAccordion">
+                                <div class="accordion-body">
+                                    Agencies offer scalable services and data-driven strategies tailored to your growth
+                                    goals.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- this is map container -->
+            <div class="map-container mb-5">
+                <!--  Live Google Map Embed -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94880.31768643642!2d73.02499017323564!3d19.179092414979362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1746340070889!5m2!1sen!2sin"
+                    height="700" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <!--  Contact Form -->
+                <form class="" id="form">
+                    <div class="contact-form ">
+                        <h6 class="msg" id="formMsg"></h6>
+                        <h5 class="heading3 mb-2">Get In Touch</h5>
+
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="email" placeholder="Your email">
+                        </div>
+
+                        <div class="mb-3">
+                            <select class="form-select" id="select">
+                                <option selected disabled>Subject</option>
+                                <option value="1">General Inquiry</option>
+                                <option value="2">Support</option>
+                                <option value="3">Feedback</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-4">
+                            <textarea class="form-control" rows="3" id="message" placeholder="Message"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-danger" value="submit now">SUBMIT NOW</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- this is footer container -->
+    <footer class=" pt-5 pb-4  ">
+        <div class="container">
+            <div class="row  text-center text-lg-start ">
+                <!-- Brand Column -->
+                <div class="col-md-3  mb-3">
+                    <h4 class=" brandn">Agency</h4>
+                </div>
+
+                <!-- Menu Column -->
+                <div class="col-md-3 mb-3">
+                    <h6 class="text-uppercase heading5 ">Menu</h6>
+                    <ul class="list-unstyled pt-3 ">
+                        <li><a href="#" class="text-decoration-none heading4 ">About</a></li>
+                        <li><a href="#" class="text-decoration-none heading4">Services</a></li>
+                        <li><a href="#" class="text-decoration-none heading4">Blog</a></li>
+                        <li><a href="#" class="text-decoration-none heading4">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services Column -->
+                <div class="col-md-3  mb-3">
+                    <h6 class="text-uppercase heading5 ">Service</h6>
+                    <ul class="list-unstyled pt-3">
+                        <li><a href="#" class="text-decoration-none heading4">Design</a></li>
+                        <li><a href="#" class="text-decoration-none heading4">Development</a></li>
+                        <li><a href="#" class="text-decoration-none heading4">Marketing</a></li>
+                        <li><a href="#" class="text-decoration-none heading4">See More</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social Media -->
+                <div
+                    class="col-md-3 d-flex align-items-md-start justify-content-md-end justify-content-center gap-2 mt-md-0">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <div class="social"><img src="./photo/facebook (1).png"></div>
+                    </a>
+                    <a href="https://www.x.com" target="_blank">
+                        <div class="social"><img src="./photo/twitter.png"></div>
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <div class="social"><img src="./photo/instagram (1).png"></div>
+                    </a>
+                </div>
+            </div>
+
+            <hr class=" foo my-4">
+
+            <div
+                class="col-12 d-flex flex-column flex-md-row justify-content-md-between justify-content-center align-items-center  mt-5 mb-5 ">
+                <div class=" foo1 col-6 text-center text-lg-start col-lg-8 align-items-center ps-sm-0 ">Copyright © 2022
+                    Laaqiq. All Rights Reserved.</div>
+                <div class=" text-center pt-4 pt-md-0 col-md-5 col-lg-4 d-flex justify-content-md-end">
+                    <a href="#" class="text-decoration-none heading4 me-5 ">Terms of Use</a>
+                    <a href="#" class="text-decoration-none  heading4 ">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"
+        src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js">
+
+            const lightbox = GLightbox({ selector: '.glightbox' });
+
+        </script>
+
+    <script>
+        //this js for fliter and sorting card
+        const filterButtons = document.querySelectorAll(".filter-buttons button");
+        const filterSelect = document.querySelector(".filter-select");
+        const filterableCards = document.querySelectorAll(".filter-card .card_wrapper");
+
+        //  Unified filtering logic
+        function applyFilter(filterValue) {
+            filterableCards.forEach(card => {
+                const category = card.dataset.filter;
+
+                if (filterValue === "all" || category === filterValue) {
+                    card.classList.remove("hide");
+                } else {
+                    card.classList.add("hide");
+                }
+            });
+        }
+
+        //  Desktop filter buttons
+        filterButtons.forEach(button => {
+            button.addEventListener("click", e => {
+                document.querySelector(".filter-buttons .active")?.classList.remove("active");
+                e.target.classList.add("active");
+
+                const filterValue = e.target.dataset.filter;
+                applyFilter(filterValue);
+            });
+        });
+
+        //  Mobile filter dropdown
+        filterSelect?.addEventListener("change", e => {
+            const selectedOption = e.target.options[e.target.selectedIndex];
+            const filterValue = selectedOption.dataset.filter;
+            applyFilter(filterValue);
+        });
+
+        //  Default state
+        applyFilter("all");
+
+
+
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script> //this js for team testimonal
+        const swiper = new Swiper(".swiper", {
+            slidesPerView: "auto", // Show cards naturally based on width
+            spaceBetween: 20,
+            // freeMode: true,         // Enables free horizontal scrolling
+            loop: true,
+            mousewheel: {
+                forceToAxis: true,
+                sensitivity: 1,
+            },            // Turn off looping when freeMode is used
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                dynamicBullets: true,
+            },
+            breakpoints: {
+                // 768: {
+                //     slidesPerView: 2,
+                // },
+                // 992: {
+                //     slidesPerView: 3,
+                // },
+                0: { slidesPerView: 1 },
+                768: { slidesPerView: 2 },
+                992: { slidesPerView: 3 },
+                1200: { slidesPerView: 4 },
+            },
+        });
+    </script>
+
+    <script>
+        // this js for form
+        document.getElementById("form").addEventListener("submit", function (e) {
+            e.preventDefault(); // Prevent actual form submission
+            const email = document.getElementById("email").value.trim();
+            const select = document.getElementById("select").value;
+            const message = document.getElementById("message").value.trim();
+            const msgBox = document.getElementById("formMsg");
+
+            if (email === "" || select === "" || message === "") {
+                msgBox.innerText = "Please fill in all required fields.";
+                msgBox.style.color = "red";
+                return;
+            }
+
+            // Optionally add regex for email format
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(email)) {
+                msgBox.innerText = "Please enter a valid email address.";
+                msgBox.style.color = "red";
+                return;
+            }
+
+            // ✅ If valid
+            msgBox.innerText = "Form submitted successfully!";
+            msgBox.style.color = "green";
+
+            // Optional: send data via fetch() or reset the form
+            // e.target.reset();
+        });
+    </script>
+
+
+
+</body>
+
+</html>
